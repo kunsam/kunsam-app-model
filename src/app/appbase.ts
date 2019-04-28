@@ -1,8 +1,8 @@
-import { CommandManager } from '../core/command/commandmanager';
-import { KeyboardManager } from '../core/keyboard/keyboardmanager';
+import { CoreConstants } from "../constants";
 import { MouseManager } from '../core/mouse/mousemanager';
 import { EventManager } from '../core/event/eventmanager';
-import { CoreConstants } from "../constants";
+import { CommandManager } from '../core/command/commandmanager';
+import { KeyboardManager } from '../core/keyboard/keyboardmanager';
 import { TransactionManager } from '../core/transaction/transactionmanager';
 
 
