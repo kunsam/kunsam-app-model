@@ -1,0 +1,19 @@
+{
+  "name": "kunsam-app-model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "pub": "git push origin && npm version patch && npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kunsam624@icloud.com",
+  "license": "ISC",
+  "dependencies": {
+    "events": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/events": "^3.0.0"
+  }
+}
